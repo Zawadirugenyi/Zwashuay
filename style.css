@@ -23,30 +23,35 @@
     /* background-color: #231e9e; */
     background-color: var(--red);
     color: #fff;
-    padding: 42px;
+    padding: 22px;
   }
   
  
-    nav ul {
-        float: right;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-      
-     li {
-        display: inline-block;
-        margin-right: 20px;
-      
-       
-      }
-      
-      nav li a {
-        color:white;
-        text-decoration: none;
-        font-size: 18px;
-      }
-      
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li.logo {
+    font-weight: bold;
+    font-size:43px;
+    margin-right: auto; /* Pushes the logo to the left */
+    padding-right: 10px; /* Adds some space between the logo and other items */
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: white;
+    font-size:19px;
+    margin-left: 10px; /* Adds some space between the navigation items */
+  }
+  
+  nav li a:hover {
+    color: black; /* Example hover color */
+  }
+  
   
   header {
     min-height: 100vh;
