@@ -134,7 +134,8 @@
 
 
 h1 {
-  text-align: center;
+  text-align: left;
+  padding-bottom: 22px;
 }
 
 
@@ -187,11 +188,11 @@ h1 {
   
   .book-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #1d1818;
+    padding: 10px 40px;
+    background-color: #0c0c0c;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
   }
   
   .book-button:hover {
